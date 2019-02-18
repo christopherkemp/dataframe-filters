@@ -72,7 +72,7 @@ df %>% filter(row_id %in% final_rows)
 #' @details 
 #' You can build upon this example in several ways
 #' First, perhaps the function is overspecified, and you want to allow the user
-#' to define their own inequality conidtions within function calls to dataframeFilters.
+#' to define their own inequality conidtions within function calls to dataframeFilter.
 #' Second, perhaps you might encounter other input cases I haven't considered.
 #' Third, perhaps you don't want the compose-filters to be constrained to only
 #' using intersect statements, but you want to have the option of defining more complex
